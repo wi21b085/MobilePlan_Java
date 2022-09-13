@@ -1,0 +1,22 @@
+MobilePhoneContract [
+carrier=A1, customer=[Franziska 26 [Postplatz; 2300 Klein Wien, Niederoesterreich]], imei=527348889299384, usedUnits=0,
+connections=[]
+]
+MobilePhoneContract [
+carrier=A1, customer=[Anna 75 [Brigittapassage 3c; 1200 Wien, Wien]], imei=223419892837377, usedUnits=0,
+connections=[]
+]
+MobilePhoneContract [
+carrier=A1, customer=[Markus 32 [Stephansplatz 1; 1010 Wien, Wien]], imei=351756051523999, usedUnits=91,
+connections=[
+Connection [caller=351756051523999, callee=987289743254583, type=STANDARD, units=72, DateTime=2022-07-12 00:00 (UTC)], 
+Connection [caller=351756051523999, callee=987289743254583, type=PREMIUM, units=12, DateTime=2022-07-12 01:00 (UTC)], 
+Connection [caller=351756051523999, callee=90342189315843, type=STANDARD, units=7, DateTime=2022-07-12 00:00 (UTC)]]
+]
+MobilePhoneContract [
+carrier=3AT, customer=[Martina 18 [Lange Gasse; 2700 Wiener Neustadt, Niederoesterreich]], imei=987289743254583, usedUnits=126,
+connections=[
+Connection [caller=987289743254583, callee=527348889299384, type=STANDARD, units=12, DateTime=2022-07-12 00:00 (UTC)], 
+Connection [caller=987289743254583, callee=351756051523999, type=STANDARD, units=99, DateTime=2022-07-12 03:00 (UTC)], 
+Connection [caller=987289743254583, callee=843534588453985, type=STANDARD, units=15, DateTime=2022-07-12 04:00 (UTC)]]
+]
